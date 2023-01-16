@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="cartstyle.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul class="nav__links">
+            <!--<li><a href="#">Filters<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>-->
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <a href ="index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+
+    <a href="cart.html"><img class="cart" src="images/in-cart1.png" alt=""></a>
+</header>
+<a href="clothing-list.html" class="previous">&#8592;</a>
+<div class="cart-page">
+    <table>
+        <tr>
+            <th>Clothing</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/clothing/beret-blue.png" alt="">
+                    <div>
+                        <p>Beret</p>
+                        <img src="./images/clothing/color-blue.png" alt="">
+                        <h5>OneSize</h5>
+                        <h4>Price: 30,00 €</h4>
+                        <a href="clothing-list.html">Remove</a>
+                    </div>
+                </div>
+
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>30,00 €</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Total</td>
+                <td>30,00 €</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="button-position">
+        <a href="order.html"><button class="button">Order</button></a>
+    </div>
+</div>
+
+</body>
+
+</html>

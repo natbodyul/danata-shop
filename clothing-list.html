@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Clothing List</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="/script.js"></script>
+
+</head>
+<body onload="figureUpload()">
+<header>
+    <nav>
+        <ul class="nav__links">
+            <!--<li><a href="#">Filters<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>-->
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <a href ="index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+
+    <a href="cart.html"><img class="cart" src="images/cart.png" alt="" id="cart"></a>
+</header>
+
+<div class="figure">
+    <a href="figure.html" class="previous">&#8592;</a>
+    <input type="checkbox" id="side-checkbox" />
+
+    <div class="detailed_part-list">
+        <img src="images/figure/woman-winter-head-hat.png" alt="" onclick="addToCart()">
+    </div>
+
+    <div class="side-panel">
+        <label class="side-button-2" for="side-checkbox"></label>
+        <div class="side-title">
+            <a class="zoom" href="./images/clothing/earshat-pink.png" target="_blank">
+                <img class="sideimg" src="./images/clothing/earshat-pink.png" alt="">
+            </a>
+            <p>Hat with ears</p>
+            <p><img class="color" src="./images/clothing/color-pink.png" alt="">
+                <img class="color" src="./images/clothing/color-green.png" alt="">
+                <img class="color" src="./images/clothing/color-blue.png" alt="">
+            </p>
+            <h5>OneSize</h5>
+            <img class="carticon" src="./images/cart.png" alt="" onclick="addToCart()">
+            <h4>19,00 €</h4>
+
+        </div>
+        <div class="side-title">
+            <a class="zoom" href="./images/clothing/ushanka-brown.png" target="_blank">
+                <img class="sideimg" src="./images/clothing/ushanka-brown.png" alt="">
+            </a>
+            <p>Cap with ear flaps</p>
+            <p><img class="color" src="./images/clothing/color-black.png" alt="">
+                <img class="color" src="./images/clothing/color-grey.png" alt="">
+                <img class="color" src="./images/clothing/color-white.png" alt="">
+            </p>
+            <h5>OneSize</h5>
+            <img class="carticon" src="./images/cart.png" alt="" onclick="addToCart()">
+            <h4>25,00 €</h4>
+        </div>
+        <div class="side-title">
+            <a class="zoom" href="./images/clothing/pompon-green.png" target="_blank">
+                <img class="sideimg" src="./images/clothing/pompon-green.png" alt="">
+            </a>
+            <p>Hat with pompom</p>
+            <p><img class="color" src="./images/clothing/color-orange.png" alt="">
+                <img class="color" src="./images/clothing/color-violet.png" alt="">
+                <img class="color" src="./images/clothing/color-green.png" alt="">
+            </p>
+            <h5>OneSize</h5>
+            <img class="carticon" src="./images/cart.png" alt="" onclick="addToCart()">
+            <h4>15,00 €</h4>
+        </div>
+        <div class="side-title">
+            <a class="zoom" href="./images/clothing/beret-black.png" target="_blank">
+                <img id="beret" class="sideimg" src="./images/clothing/beret-black.png" alt="">
+            </a>
+            <p>Beret</p>
+            <p><img class="color" src="./images/clothing/color-black.png" alt="black" onclick="chooseColor('black', 'beret')">
+                <img class="color" src="./images/clothing/color-red.png" alt="red" onclick="chooseColor('red', 'beret')">
+                <img class="color" src="./images/clothing/color-blue.png" alt="blue" onclick="chooseColor('blue', 'beret')">
+            </p>
+            <h5>OneSize</h5>
+            <img class="carticon" src="./images/cart.png" alt="" onclick="addToCart()">
+            <h4>30,00 €</h4>
+        </div>
+        <div class="side-title">
+            <a class="zoom" href="./images/clothing/panama-black.png" target="_blank">
+                <img class="sideimg" src="./images/clothing/panama-black.png" alt="">
+            </a>
+            <p>Panama</p>
+            <p><img class="color" src="./images/clothing/color-grey.png" alt="">
+                <img class="color" src="./images/clothing/color-yellow.png" alt="">
+                <img class="color" src="./images/clothing/color-violet.png" alt="">
+            </p>
+            <h5>OneSize</h5>
+            <img class="carticon" src="./images/cart.png" alt="" onclick="addToCart()">
+            <h4>27,00 €</h4>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

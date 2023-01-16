@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Figure</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="/script.js"></script>
+
+</head>
+<body onload="figureUpload()">
+<header>
+    <nav>
+        <ul class="nav__links">
+            <!--<li><a href="#">Filters<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>-->
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <a href ="index.html"><img class="logo" src="./images/logo.png" alt=""></a>
+
+    <a href="cart.html"><img class="cart" src="images/cart.png" alt=""></a>
+</header>
+
+<div class="figure">
+    <a href="season.html" class="previous">&#8592;</a>
+    <img class="fig" id="myFigure" src="" alt="" usemap="#parts">
+    <div class="detailed_part-list">
+        <img src="" alt="" id="myDetailedFigure" usemap="#">
+    </div>
+</div>
+
+
+<map name="parts">
+    <area shape="rect" coords="111, 20, 237, 150" alt="head" onmouseover="detailsUpload('head')" onclick="detailsUpload('head')">
+    <area shape="circle" coords="176, 241, 90" alt="body" onmouseover="detailsUpload('body')" onclick="detailsUpload('body')">
+    <area shape="rect" coords="112, 351, 228, 638" alt="legs" onmouseover="detailsUpload('legs')" onclick="detailsUpload('legs')">
+</map>
+
+<map name="detailed_part_head">
+    <area shape="rect" coords="134, 200, 252, 248" alt="glasses" onmouseover="mouseOnClothing('glasses')" onclick="itemSelected('glasses')">
+    <area shape="rect" coords="107, 76, 287, 190" alt="hat" onmouseover="mouseOnClothing('hat')"  onclick="itemSelected('hat')">
+    <area shape="circle" coords="131, 296, 5" alt="earrings" onmouseover="mouseOnClothing('earrings')" onclick="itemSelected('earrings')">
+    <area shape="circle" coords="251, 296, 5" alt="earrings" onmouseover="mouseOnClothing('earrings')" onclick="itemSelected('earrings')">
+</map>
+
+</html>
+</body>

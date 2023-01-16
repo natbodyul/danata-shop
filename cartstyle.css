@@ -1,0 +1,211 @@
+body{
+    background-image: url("images/back2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.cart-page{
+    margin: 40px 120px 40px 120px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+    color: #f9fafd;
+    background: #6091c5;
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-weight: 700;
+}
+
+td{
+    padding: 10px 10px;
+}
+
+td input{
+    width: 45px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+td a {
+    color: #6091c5;
+    font-size: 14px;
+    font-family: "Helvetica", sans-serif;
+    text-transform: none;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+.cart-info img{
+    width: 120px;
+    height: 120px;
+    margin-right: 15px;
+}
+
+.cart-info div p{
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 5px;
+}
+
+.cart-info div h5{
+    font-size: 14px;
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 5px;
+}
+
+.cart-info div h4{
+    font-size: 14px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.cart-info div img{
+    width: 20px;
+    height: 20px;
+    margin: 7px 0 7px 0;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #6091c5;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 5px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.total-price td{
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-weight: 550;
+    padding: 25px 10px 25px 0;
+}
+
+.button-position{
+    position: relative;
+}
+
+.button{
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #c0d9fa, #72abe8);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+    color: #202020;
+}
+
+.cart-page td{
+    font-size: 18px;
+}
+
+.container {
+    width: 70%;
+    height: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    left: 15%;
+}
+
+.top {
+    margin: 20px;
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.order-text pre {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+}
+
+.order-text input {
+    margin-left: 40px;
+}
+
+.order-bottom-column h3 {
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.order-bottom-column {
+    float: left;
+    width: 50%;
+}
+
+.button-position-order{
+    position: relative;
+}
+
+.button-pay{
+    position: absolute;
+    top: 85%;
+    right: 30px;
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #c0d9fa, #72abe8);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+    color: #202020;
+}
+
+.order-text input {
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
