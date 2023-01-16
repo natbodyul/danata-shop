@@ -1,1 +1,1 @@
-# danata-shop
+# danata-shop: An online clothing shop
