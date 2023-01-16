@@ -13,7 +13,7 @@
     <script src="/script.js"></script>
 </head>
 
-<body>
+<body onload="cartOnload()">
 <header>
     <nav>
         <ul class="nav__links">
@@ -37,10 +37,10 @@
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="./images/clothing/beret-blue.png" alt="">
+                    <img id="photo" src="./images/clothing/beret-blue.png" alt="">
                     <div>
                         <p>Beret</p>
-                        <img src="./images/clothing/color-blue.png" alt="">
+                        <img id="color-icon" src="./images/clothing/color-blue.png" alt="">
                         <h5>OneSize</h5>
                         <h4>Price: 30,00 €</h4>
                         <a href="clothing-list.html">Remove</a>
